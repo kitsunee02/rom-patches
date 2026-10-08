@@ -42,6 +42,7 @@ TARGET_INCLUDE_VIA := false
 
 #Clover maintainer
 CLOVER_MAINTAINER := fiyuu
+CLOVER_BUILDTYPE := UNOFFICIAL
 
 #Gms
 WITH_GMS := true
