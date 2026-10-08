@@ -30,16 +30,6 @@ PRODUCT_BRAND := Redmi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-#Enable blur
-TARGET_ENABLE_BLUR := true
-
-#Quicktap
-TARGET_SUPPORTS_QUICK_TAP := true
-
-#Nerver complie this
-TARGET_EXCLUDES_AUDIOFX := true
-TARGET_INCLUDE_VIA := false
-
 #Clover maintainer
 CLOVER_MAINTAINER := fiyuu
 CLOVER_BUILDTYPE := UNOFFICIAL
@@ -49,3 +39,25 @@ WITH_GMS := true
 
 #Sign build with private key
 -include vendor/lineage-priv/keys/keys.mk
+
+#Enable Blur
+TARGET_ENABLE_BLUR := false
+TARGET_SUPPORTS_BLUR := true
+BOMB_AUDIOFX := true
+
+#Bomb AudioFx
+
+#Bomb malloc and aperture
+TARGET_DISABLE_MATLOG := true
+PRODUCT_NO_CAMERA := false
+
+# always append time of day
+LINEAGE_VERSION_APPEND_TIME_OF_DAY := true
+
+#Include some stuff
+TARGET_INCLUDE_VIA := true
+TARGET_INCLUDE_REVAMPED := false
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_INCLUDE_DOLBY := false
+TARGET_EXCLUDES_AUDIOFX := true
