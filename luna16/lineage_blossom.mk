@@ -24,7 +24,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 
 # GMS
-WITH_GAPPS := false
+WITH_GMS := false
 
 # Malloc / performance tweaks
 PRODUCT_DISABLE_SCUDO := true
