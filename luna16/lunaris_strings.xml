@@ -335,7 +335,7 @@
     <string name="lunaris_processor_code_title">Processor</string>
     <string name="lunaris_battery_type_title">Battery</string>
     <string name="lunaris_screen_title">Screen</string>
-    <string name="lunaris_device_message" Xiaomi 10 blossom edition</string>
+    <string name="lunaris_device_message">Xiaomi 10 kiyuu edition</string>
     <string name="lunaris_processor_code_message">Nuclear G25/35</string>
     <string name="lunaris_battery_type_message">470000 mAh</string>
     <string name="lunaris_screen_message">Amoled LTPO 120hz</string>
