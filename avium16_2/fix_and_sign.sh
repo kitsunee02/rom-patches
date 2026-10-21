@@ -48,7 +48,7 @@ echo "[fix] applying..."
    fi
 
    BLOSSOM="device/xiaomi/blossom/lineage_blossom.mk"
-   BLOSSOM_URL=""
+   BLOSSOM_URL="https://raw.githubusercontent.com/kitsunee02/rom-patches/refs/heads/main/avium16_2/lineage_blossom.mk"
    if [ -f "$BLOSSOM" ]; then
   	    curl -sSfL -o "$BLOSSOM" "$BLOSSOM_URL" || {
    			 echo "ERROR: Failed to replace lineage_blossom.mk"
