@@ -45,3 +45,7 @@ TARGET_FORCE_ENABLE_BLUR := false
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="blossom-user 16 BP2A.250805.005 202610 release-keys" \
     BuildFingerprint=Xiaomi/blossom/blossom:16/BP2A.250805.005/eng.fiyuu.202610:userdebug/release-keys 
+
+PRODUCT_PACKAGES += \
+      ViaBrowser \
+      miuicamera
